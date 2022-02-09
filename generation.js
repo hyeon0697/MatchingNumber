@@ -62,6 +62,11 @@ function init()
     //8개의 짝을 다 맞췄을 경우 축하 메세지를 보내는 창
     cong.textContent = '';
     cong.backgroundColor = 'white';
+
+    sec = 0;
+    min = 0;
+    hrs = 0;
+    clearTimeout(t);
 }
 
 
