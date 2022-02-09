@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" type="text/css" href="styles.css" >
 
-    <script type="text/javascript" src="generation.js" ></script>
+    
 </head>
 <body>
 
@@ -20,31 +20,31 @@
             <table border="2" bordercolor="blue" width ="500" height="500" style="margin-left: auto; margin-right: auto;">
                 <!--첫번째 행-->
                 <tr style="text-align: center;">
-                    <td><input type="button" id="0" class="number" value="1" onclick="checkValue(this.name, this.id)"></input></td>
-                    <td><input type="button" id="1" class="number" value="2" onclick="checkValue(this.name, this.id)"></input></td>
-                    <td><input type="button" id="2" class="number" value="3" onclick="checkValue(this.name, this.id)"></input></td>
-                    <td><input type="button" id="3" class="number" value="4" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="0" class="number" value="1" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="1" class="number" value="2" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="2" class="number" value="3" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="3" class="number" value="4" onclick="checkValue(this.name, this.id)"></input></td>
                 </tr>
                 <!--두번째 행-->
                 <tr style="text-align: center;">
-                    <td><input type="button" id="4" class="number" value="1" onclick="checkValue(this.name, this.id)"></input></td>
-                    <td><input type="button" id="5" class="number" value="2" onclick="checkValue(this.name, this.id)"></input></td>
-                    <td><input type="button" id="6" class="number" value="3" onclick="checkValue(this.name, this.id)"></input></td>
-                    <td><input type="button" id="7" class="number" value="4" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="4" class="number" value="5" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="5" class="number" value="6" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="6" class="number" value="7" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="7" class="number" value="8" onclick="checkValue(this.name, this.id)"></input></td>
                 </tr>
                 <!--세번째 행-->
                 <tr style="text-align: center;">
-                    <td><input type="button" id="8" class="number" value="1" onclick="checkValue(this.name, this.id)"></input></td>
-                    <td><input type="button" id="9" class="number" value="2" onclick="checkValue(this.name, this.id)"></input></td>
-                    <td><input type="button" id="10" class="number" value="3" onclick="checkValue(this.name, this.id)"></input></td>
-                    <td><input type="button" id="11" class="number" value="4" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="8" class="number" value="9" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="9" class="number" value="10" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="10" class="number" value="11" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="11" class="number" value="12" onclick="checkValue(this.name, this.id)"></input></td>
                 </tr>
                 <!--네번째 행-->
                 <tr style="text-align: center;">
-                    <td><input type="button" id="12" class="number" value="1" onclick="checkValue(this.name, this.id)"></input></td>
-                    <td><input type="button" id="13" class="number" value="2" onclick="checkValue(this.name, this.id)"></input></td>
-                    <td><input type="button" id="14" class="number" value="3" onclick="checkValue(this.name, this.id)"></input></td>
-                    <td><input type="button" id="15" class="number" value="4" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="12" class="number" value="13" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="13" class="number" value="14" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="14" class="number" value="15" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td width ="125"><input type="button" id="15" class="number" value="16" onclick="checkValue(this.name, this.id)"></input></td>
                 </tr>
             </table>
         </div>
@@ -53,8 +53,18 @@
         <div></div>
 
         <div class="right-column">
+
+            <div>
+                <p class="matching"></p>
+                <p class="time"></p>
+            </div>
+
             <button id="play-btn" onclick="generate()" class="play-button">Play</button>
         </div>
+    
     </div> 
+    <p class="cong"></p>
+
+    <script type="text/javascript" src="generation.js" ></script>
 </body>
 </html>
