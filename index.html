@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" >
+
+    <script type="text/javascript" src="generation.js" ></script>
+</head>
+<body>
+
+    <div class="grid">
+         <!--거리재기용-->
+        <div></div>
+
+        <div class="left-column">
+            <table border="2" bordercolor="blue" width ="500" height="500" style="margin-left: auto; margin-right: auto;">
+                <!--첫번째 행-->
+                <tr style="text-align: center;">
+                    <td><input type="button" id="0" class="number" value="1" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td><input type="button" id="1" class="number" value="2" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td><input type="button" id="2" class="number" value="3" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td><input type="button" id="3" class="number" value="4" onclick="checkValue(this.name, this.id)"></input></td>
+                </tr>
+                <!--두번째 행-->
+                <tr style="text-align: center;">
+                    <td><input type="button" id="4" class="number" value="1" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td><input type="button" id="5" class="number" value="2" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td><input type="button" id="6" class="number" value="3" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td><input type="button" id="7" class="number" value="4" onclick="checkValue(this.name, this.id)"></input></td>
+                </tr>
+                <!--세번째 행-->
+                <tr style="text-align: center;">
+                    <td><input type="button" id="8" class="number" value="1" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td><input type="button" id="9" class="number" value="2" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td><input type="button" id="10" class="number" value="3" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td><input type="button" id="11" class="number" value="4" onclick="checkValue(this.name, this.id)"></input></td>
+                </tr>
+                <!--네번째 행-->
+                <tr style="text-align: center;">
+                    <td><input type="button" id="12" class="number" value="1" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td><input type="button" id="13" class="number" value="2" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td><input type="button" id="14" class="number" value="3" onclick="checkValue(this.name, this.id)"></input></td>
+                    <td><input type="button" id="15" class="number" value="4" onclick="checkValue(this.name, this.id)"></input></td>
+                </tr>
+            </table>
+        </div>
+        
+        <!--거리재기용-->
+        <div></div>
+
+        <div class="right-column">
+            <button id="play-btn" onclick="generate()" class="play-button">Play</button>
+        </div>
+    </div> 
+</body>
+</html>
